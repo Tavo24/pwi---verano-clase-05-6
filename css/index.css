@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    background-color: blueviolet;
+}
+
+.header{
+    background-color: blue;
+    color: white;
+    height: 80px;
+    width: 85vw;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: lightgrey;
+    color: white;
+    width: 85vw;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul{
+    text-align:right;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: blue;
+}
+
+#maincontent{
+    width: 85wv;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portada{
+    width: 78%;
+    background: aquamarine;
+    padding: 1.6em;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.destacado,.default{
+    background: white;
+    padding: 0.7em;
+}
+
+.destacado{
+    margin-bottom: 0.6em;
+}
+
+.default{
+    box-sizing:border-box;
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+.imgnote img{
+    width: 100%;
+}
+
+/*estilos de contactos*/
+
+#formContacto{
+    padding: 1em;
+    background: gray;
+    border-radius: 15px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#formContacto input, #formContacto select, #formContacto textarea{
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formContacto input[type="submit"]:hover{
+    background: blue;
+    color: white;
+}
+
+#formContacto input[type="submit"]{
+    width: 50%;
+}
+
+#formContacto input:focus{
+    background: lightgrey;
+}
+
+#formContacto input:invalid{
+    border: 3px solid red;
+}
+#formContacto input:valid{
+    border: 3px solid green;
+}
+
+footer{
+    clear: both;
+    background: lightpink;
+    color: grey;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    width: 85wv;
+    margin-left:auto;
+    margin-right:auto;
+}
